@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Roboto:wght@100&display=swap');
+
+
+.body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color:#B4ADEA;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B263B;
+
+    margin-top: -10px;
+    margin-left: -10px;
+ 
+    width: 100vw;
+    height: 5vh;
+    padding: 5px ; 
+}
+
+.bottombar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B263B;
+
+    margin-top: -10px;
+    margin-left: -10px;
+
+    width: 100vw;
+    height: 5vh;
+    padding: 5px ;
+    position: fixed;
+    bottom: 0;
+}
+.bottombar
+{
+    color: #FFFFFF;
+
+}
+.link{
+    margin-top: 6px;
+    margin-right: 40px;
+    font-size: 150%;
+    font-family: 'Bitter',serif;
+
+}
+.link a {
+    color: #FFFFFF;
+    margin-left: 40px; 
+    text-decoration: none;
+    float: 100vw;
+}
+.links{
+    margin-top: 6px;
+    margin-right: 40px;
+    font-size: 100%;
+    font-family: 'Bitter',serif;
+
+}
+
+.links a {
+    color: #FFFFFF;
+    margin-left: 40px; 
+    text-decoration: none;
+}
+.logo img {
+    width: 2vw; 
+    height: 5vh; 
+    margin-left: 40px;
+    border-radius: 60%;
+}
+.maintext h1 {
+    text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.5);
+    color: #000000;
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: absolute; 
+    margin-left: -400px;
+    top: 30%; 
+    left: 0;
+    right: 0;
+    margin-top: -0.5%;
+}
+.maintext li {
+    text-shadow: 100px 100px 100px rgb(0, 0, 0);
+    font-size: 110%;
+    color: #000000;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute; 
+    top: 40%; 
+    left: 0;
+    right: 100;
+    margin-top: -0.5%;
+}
+
+.maintext img
+{
+  width: 5vw;
+  height: 5vh;
+}
+
+.my-button {
+    width: 50px; 
+    height: 50px; 
+    background-color: #F5E5FC;
+    color: #fff; 
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box_one{
+    background-color: #1B263B;
+    border-radius: .5vw;
+    display: inline-block;
+    padding: .4vw;
+    height: 60vh;
+    width: 19vw;
+    border: .1vw solid black;
+    float: right;
+}
+
+.box_two{
+    background-color: #1B263B;
+    border-radius: .5vw;
+    display: inline-block;
+    padding: .4vw;
+    height: 60vh;
+    width: 19vw;
+    border: .1vw solid black;
+}
+
+.box_three{
+    background-color: #1B263B;
+    border-radius: .5vw;
+    display: inline-block;
+    padding: .4vw;
+    height: 60vh;
+    width: 19vw;
+    border: .1vw solid black;
+}
+
+.box_four{
+    background-color: #1B263B;
+    border-radius: .5vw;
+    display: inline-block;
+    padding: .4vw;
+    height: 60vh;
+    width: 19vw;
+    border: .1vw solid black;
+}
